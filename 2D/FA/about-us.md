@@ -46,5 +46,16 @@
         email="sadraiiali@gmail.com"
         >
     </AvatarMini>
+    <AvatarMini 
+         firstName="مریم"
+         lastName="تیموری"
+         telegram="maryamteimourii"
+         twitter="teimouri_maryam"
+         email="maryam.teimouri.bd@gmail.com"
+         linkedin="maryam-teimouri-190578167"
+         github="maryamteimouri"
+         gitlab="maryamteimouri"
+         >
+      </AvatarMini>
 </div>
 
