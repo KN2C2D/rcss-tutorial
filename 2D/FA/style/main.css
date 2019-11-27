@@ -26,5 +26,5 @@
 }
 
 body {
-    font-family: Sahel, sans-serif;
+    font-family: Sahel, sans-serif !important;
 }
