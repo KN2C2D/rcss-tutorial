@@ -39,7 +39,7 @@ body {
     display: inline-flex;
   }
 
-  .title {
+  .title-lg {
     position: relative;
     display: inline-flex;
     padding: .1rem 2rem;
@@ -69,6 +69,32 @@ body {
 
     h1 {
       z-index: 2;
+    }
+  }
+
+  .title-md {
+    display: none;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: white !important;
+
+    hr {
+      z-index: 2;
+      width: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 832px) {
+    .title-lg {
+      display: none;
+    }
+    .title-md {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
   }
 }
