@@ -1,6 +1,6 @@
 # شبیه‌سازی دوبعدی فوتبال چیست؟
 <ImageZoom 
-  src="img/doc/intro/2d-overview-field.jpg" 
+  src="/docs/2D/FA/img/doc/intro/2d-overview-field.jpg" 
   :border="true" 
   width="auto"
 />
