@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="fa">
+
 <head>
     <script>
-        (function () {
+        (function() {
             var redirect = sessionStorage.redirect;
             delete sessionStorage.redirect;
             if (redirect && redirect != location.href) {
@@ -16,55 +17,86 @@
     <link href="https://unpkg.com/docute-fa@0.1.2/dist/docute.css" rel="stylesheet">
     <link href="style/main.css" rel="stylesheet">
 </head>
+
 <body>
-<div id="docute"></div>
-<script src="https://unpkg.com/docute-fa@0.1.2/dist/docute.js"></script>
-<script>
-    new Docute({
-        target: '#docute',
-        title: '🎓 مستندات شبیه‌سازی دوبعدی فوتبال',
-        highlight: ['cpp', 'bash', 'c', 'markdown'],
-        router: {
-            mode: 'history'
-        },
-        detectSystemDarkTheme: true,
-        darkThemeToggler: true,
-        sourcePath: '/docs',
-        editLinkBase: 'https://github.com/KN2C2D/rcss-tutorial/tree/master/docs',
-        editLinkText: 'این صفحه را در گیتهاب ویرایش کنید.',
-        sidebar: [
-            {
-                title: 'مقدماتی',
-                children: [
-                    {
+    <div id="docute"></div>
+    <script src="https://unpkg.com/docute-fa@0.1.2/dist/docute.js"></script>
+    <script>
+        new Docute({
+            target: '#docute',
+            title: '🎓 مستندات شبیه‌سازی دوبعدی فوتبال',
+            highlight: ['cpp', 'bash', 'c', 'markdown'],
+            router: {
+                mode: 'history'
+            },
+            detectSystemDarkTheme: true,
+            darkThemeToggler: true,
+            sourcePath: '/docs',
+            editLinkBase: 'https://github.com/KN2C2D/rcss-tutorial/tree/master/docs',
+            editLinkText: 'این صفحه را در گیتهاب ویرایش کنید.',
+            sidebar: [{
+                    title: 'مقدماتی',
+                    children: [{
                         title: 'شبیه‌سازی دوبعدی فوتبال چیست؟',
                         link: '/2D/FA/'
-                    },
-                ]
-            },
-            // {
-            //     title: 'پیشرفته',
-            //     children: [
-            //         {
-            //             title: 'مقدمه',
-            //             link: '/'
-            //         },
-            //     ]
-            // },
-            {
-                title: 'مشارکت کنندگان',
-                link: '/2D/FA/about-us'
-            },
-            {
-                title: 'شیوه‌ی مشارکت',
-                link: '/2D/FA/contribute'
-            },
-            {
-                title: 'پس‌گفتار',
-                link: '/2D/FA/credits'
-            }
-        ],
-        footer: `
+                    }, {
+                        title: 'مقدمه',
+                        link: '/2D/FA/basic/intro'
+                    }, {
+                        title: 'نصب',
+                        link: '/2D/FA/basic/install'
+                    }, {
+                        title: 'تیم پایه',
+                        link: '/2D/FA/basic/base'
+                    }]
+                }, {
+                    title: 'Agent2D',
+                    link: '/2D/FA/agent2d',
+                    children: [{
+                        title: 'آشنایی کلی',
+                        link: '/2D/FA/agent2d/intro'
+                    }]
+                }, {
+                    title: 'Librcsc',
+                    link: '/2D/FA/lib2d',
+                    children: [{
+                        title: 'آشنایی کلی',
+                        link: '/2D/FA/librcsc/intro'
+                    }]
+                }, {
+                    title: 'ابزار‌ها',
+                    children: [{
+                        title: 'SoccerWindow2',
+                        link: '/2D/FA/tools/soccerwindow2'
+                    }, {
+                        title: 'Fedit',
+                        link: '/2D/FA/tools/fedit2'
+                    }, {
+                        title: 'AutoTest',
+                        link: '/2D/FA/tools/autotest'
+                    }]
+                },
+                // {
+                //     title: 'پیشرفته',
+                //     children: [
+                //         {
+                //             title: 'مقدمه',
+                //             link: '/'
+                //         },
+                //     ]
+                // },
+                {
+                    title: 'مشارکت کنندگان',
+                    link: '/2D/FA/about-us'
+                }, {
+                    title: 'شیوه‌ی مشارکت',
+                    link: '/2D/FA/contribute'
+                }, {
+                    title: 'پس‌گفتار',
+                    link: '/2D/FA/credits'
+                }
+            ],
+            footer: `
           <div style="border-top:1px solid var(--border-color);padding-top:30px;margin: 40px 0;color:#999999;font-size: .9rem;">
           &copy; ${new Date().getFullYear()}.
            ساخته شده با ❤️ در
@@ -75,7 +107,8 @@
             <a href="https://github.com/sadraiiali/docute-fa">داکیوت فارسی</a>
              </div>
           `
-    })
-</script>
+        })
+    </script>
 </body>
+
 </html>
