@@ -47,6 +47,7 @@
         >
     </AvatarMini>
     <AvatarMini 
+         img="https://avatars2.githubusercontent.com/u/57563772?s=460&v=4"
          firstName="مریم"
          lastName="تیموری"
          telegram="maryamteimourii"
