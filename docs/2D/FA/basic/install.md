@@ -138,14 +138,6 @@ tar -zxpf soccerwindow2-x.x.x.tar.gz
 cd soccerwindow2-x.x.x.tar.gz
 ./configure
 make
-sudo make install
+sudo make install 
 ```
-
-
-
-------
-
-
-
-# راه اندازی و اجرای بازی شبیه ساز دو بعدی فوتبال 
 
