@@ -164,7 +164,7 @@ cd src
 در صورتی که دستورات به طور کامل درست انجام شده باشد در ترمینالی که سرور در آن ران شده است با همچین تصویری رو به رو میشوید.
 
 <ImageZoom 
-  src="/docs/2D/FA/img/doc/intro/img/rcssserver_run_a_game.jpg" 
+  src="/docs/2D/FA/img/doc/basic/rcssserver_run_a_game.jpg" 
   :border="false" 
   width="auto"
 />
@@ -180,7 +180,7 @@ rcssmonitor
 
 
 <ImageZoom 
-  src="/docs/2D/FA/img/doc/intro/rcssmonitor_run_a_game.jpg" 
+  src="/docs/2D/FA/img/doc/basic/rcssmonitor_run_a_game.jpg" 
   :border="false" 
   width="auto"
 />
