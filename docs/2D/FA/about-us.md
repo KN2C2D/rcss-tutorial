@@ -58,5 +58,14 @@
          gitlab="maryamteimouri"
          >
       </AvatarMini>
+    <AvatarMini 
+         img="https://media.licdn.com/dms/image/C5603AQGbZngJYg-H7w/profile-displayphoto-shrink_200_200/0?e=1582761600&v=beta&t=w9aVqom66H5xVIzORiTvj56yd3erE8Kn8d3bsxYFg_A"
+         firstName="نادر"
+         lastName="زارع"
+         telegram="naderzare91"
+         email="nader.zare88@gmail.com"
+         github="naderzare"
+         >
+      </AvatarMini>
 </div>
 
