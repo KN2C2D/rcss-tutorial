@@ -1,7 +1,8 @@
-## RoboCup
+<h2 style="text-align:center">RoboCup</h2>
 
-| Year | Host                                                         | First                                                        | Second                                                       | Third                                                        | Fourth                                                       | Challenge |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- |
+
+| Year |                             Host                             | First                                                        |                            Second                            |                            Third                             |                            Fourth                            | Challenge |
+| :--: | :----------------------------------------------------------: | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-------: |
 | 2019 | Australia![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/23px-Flag_of_Australia_%28converted%29.svg.png) | [Fractals](http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2019/Fractals_SS2D_RC2019_TDP.pdf)![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/23px-Flag_of_Australia_%28converted%29.svg.png) | [HELIOS](http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2019/HELIOS_SS2D_RC2019_TDP.pdf)![](https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/30px-Flag_of_Japan.svg.png) | [CYRUS](http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2019/CYRUS_SS2D_RC2019_TDP.pdf)![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png) | [YuShan](http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2019/YuShan_SS2D_RC2019_TDP.pdf)![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png) |           |
 | 2018 | Canada![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/30px-Flag_of_Canada_%28Pantone%29.svg.png) | HELIOS![](https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/30px-Flag_of_Japan.svg.png) | CYRUS![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png) | MT![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png) | Oxsy![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/30px-Flag_of_Romania.svg.png) |           |
 | 2017 | Japan![](https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/30px-Flag_of_Japan.svg.png) | HELIOS![](https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/30px-Flag_of_Japan.svg.png) |                                                              |                                                              |                                                              |           |
@@ -26,7 +27,7 @@
 | 1998 |                                                              |                                                              |                                                              |                                                              |                                                              |           |
 | 1997 |                                                              |                                                              |                                                              |                                                              |                                                              |           |
 
-## IranOpen
+<h2 style="text-align:center">IranOpen</h2>
 
 | Year | First   | Second  | Third | Fourth | Challenge   |
 | ---- | ------- | ------- | ----- | ------ | ----------- |
@@ -47,7 +48,10 @@
 | 2006 |         |         |       |        |             |
 | 2005 |         |         |       |        |             |
 
-NasirCup
 
-ShirazOpen
+<h2 style="text-align:center">NasirCup</h2>
+
+
+<h2 style="text-align:center">SirazOpen</h2>
+
 
