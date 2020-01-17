@@ -18,7 +18,7 @@ sudo apt install unzip
 unzip autotest2d-master.zip
 ```
 
-![autoTest_extract](/home/mroa/Desktop/GIT_RCSS_T/rcss-tutorial/docs/2D/FA/img/doc/tools/autoTest_extract.png)
+![autoTest_extract](../img/doc/tools/autoTest_extract.png)
 
 ## فایل های موجود 
 
@@ -68,9 +68,9 @@ FULLSTATE_R="0"        #full state mode for right
 * شما به کد های باینری تیم هایی که میخواهید با آنها تست ران کنید , نیاز دارید که می توانید از ارشیو سایت روبوکاب که از  <a herf="https://archive.robocup.info/Soccer/Simulation/2D/">این لینک</a> در دسترس است استفاده کنید. هر کدام از تیم ها که مد نظرتان بود دانلود و از حالت فشرده خارج کنید.
 
 * فایل های `start_left` و `start_right` را باز کنید و ادرس تیم ها , نام آن ها و نحوه اجرای انها را مشخص کنید.
-  ![start_right_exmaple](/home/mroa/Desktop/GIT_RCSS_T/rcss-tutorial/docs/2D/FA/img/doc/tools/start_right_exmaple.png)
+  ![start_right_exmaple](../img/doc/tools/start_right_exmaple.png)
 
-  ![start_left_exmaple](/home/mroa/Desktop/GIT_RCSS_T/rcss-tutorial/docs/2D/FA/img/doc/tools/start_left_exmaple.png)
+  ![start_left_exmaple](../img/doc/tools/start_left_exmaple.png)
 
 * برای مثال های بیشتر می توانید به فولدر start.tmpl مراجعه کنید.
 
@@ -88,7 +88,7 @@ FULLSTATE_R="0"        #full state mode for right
   ./result.sh
   ```
 
-![autoTest_output](/home/mroa/Desktop/GIT_RCSS_T/rcss-tutorial/docs/2D/FA/img/doc/tools/autoTest_output.png)
+![autoTest_output](../img/doc/tools/autoTest_output.png)
 
 - برای کیل کردن و متوقف کردن بازی ها در هر لحظه می توانید از دستور زیر استفاده کنید.
 
@@ -102,8 +102,8 @@ FULLSTATE_R="0"        #full state mode for right
 
 - Game Curve:
 
-  ![autoTest_curve](/home/mroa/Desktop/GIT_RCSS_T/rcss-tutorial/docs/2D/FA/img/doc/tools/autoTest_curve.png)
+  ![autoTest_curve](..//img/doc/tools/autoTest_curve.png)
 
 - Score Map:
 
-  ![autoTest_score](/home/mroa/Desktop/GIT_RCSS_T/rcss-tutorial/docs/2D/FA/img/doc/tools/autoTest_score.png)
+  ![autoTest_score](../img/doc/tools/autoTest_score.png)
