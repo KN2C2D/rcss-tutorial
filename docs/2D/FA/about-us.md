@@ -67,5 +67,16 @@
          github="naderzare"
          >
       </AvatarMini>
+    <AvatarMini 
+            img="https://gitlab.com/uploads/-/system/user/avatar/2574778/avatar.png?width=400" 
+            firstName="امید"
+            lastName="امینی"
+            telegram="mroa4"
+            twitter="mr_oa4"
+            email="omidamini360@gmail.com"
+            github="mroa4"
+            gitlab="mroa4"
+            internet="http://mroa4.ir">
+    </AvatarMini>
 </div>
 
