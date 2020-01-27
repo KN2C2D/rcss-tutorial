@@ -68,7 +68,7 @@
          >
       </AvatarMini>
     <AvatarMini 
-            img="https://gitlab.com/uploads/-/system/user/avatar/2574778/avatar.png?width=400" 
+            img="https://avatars2.githubusercontent.com/u/43232848?s=400&u=dd8c7847b4cf89a323a0cb164448e0663c782967&v=4" 
             firstName="امید"
             lastName="امینی"
             telegram="mroa4"
