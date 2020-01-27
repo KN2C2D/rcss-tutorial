@@ -2,13 +2,12 @@
 
 ابزاری برای تست و اجرای بازی های بسیار بین دو تیم نوشته شده توسط تیم WrightEagle
 
-- استفاده از ابزار <a herf="https://github.com/wrighteagle2d/lanmonitor">lanmonitor </a> در کنار AutoTest توصیه میشود.
+- استفاده از ابزار [Lanmonitor](https://github.com/wrighteagle2d/lanmonitor) در کنار AutoTest توصیه میشود.
 
 ## راه اندازی اولیه
 
- در صورتی که محیط شبیه سازی و تیم پایه  را روی سیستم خود نصب ندارید میتوانید از <a href="https://rcss.ir/2D/FA/basic/install">اینجا</a> 
- شروع کنید.
- سپس برای دانلود این ابزار به <a href=" https://github.com/wrighteagle2d/autotest2d">این ادرس</a> مراجعه کنید و دانلود کنید.
+ در صورتی که محیط شبیه سازی و تیم پایه  را روی سیستم خود نصب ندارید میتوانید از  [اینجا](/2D/FA/basic/install) شروع کنید.
+ سپس برای دانلود این ابزار به [این آدرس](https://github.com/wrighteagle2d/autotest2d) مراجعه کنید و دانلود کنید.
 
 و به راحتی می توانید آن با archive manager لینوکس از حالت فشرده خارج کنید , در صورت وجود مشکل می توانید از ابزار unzip استفاده کنید.
 
@@ -18,14 +17,14 @@ sudo apt install unzip
 unzip autotest2d-master.zip
 ```
 
-![autoTest_extract](../img/doc/tools/autoTest_extract.png)
+![autoTest_extract](/docs/2D/FA/img/doc/tools/autoTest_extract.png)
 
 ## فایل های موجود 
 
 * test.sh -- اجرای تست و بازی ها
 * kill.sh -- متوقف کننده بازی ها در حال اجرا
 * result.sh -- نمایش نتایج
-* analyze.sh -- نمایش انالیز و اطلاعات بیشتر در مورد نتایج ( نیازمند ابزار  <a href=" http://www.gnuplot.info/">GNUPlot</a> )
+* analyze.sh -- نمایش انالیز و اطلاعات بیشتر در مورد نتایج ( نیازمند ابزار  [GNUPlot](http://www.gnuplot.info/) )
 * start\_left -- تنظیمات مربوط به تیم چپ (محل ذخیره سازی تیم چپ , نحوه اجرای آن ها و ...)
 * start\_right -- تنظیمات مربوط به تیم راست (محل ذخیره سازی تیم چپ , نحوه اجرای آن ها و ...)
 * start.tmpl -- نمونه کد استارت برای برخی از تیم ها
@@ -65,12 +64,12 @@ FULLSTATE_R="0"        #full state mode for right
 
 
 
-* شما به کد های باینری تیم هایی که میخواهید با آنها تست ران کنید , نیاز دارید که می توانید از ارشیو سایت روبوکاب که از  <a herf="https://archive.robocup.info/Soccer/Simulation/2D/">این لینک</a> در دسترس است استفاده کنید. هر کدام از تیم ها که مد نظرتان بود دانلود و از حالت فشرده خارج کنید.
+* شما به کد های باینری تیم هایی که میخواهید با آنها تست ران کنید , نیاز دارید که می توانید از ارشیو سایت روبوکاب که از [این لینک](https://archive.robocup.info/Soccer/Simulation/2D/) در دسترس است استفاده کنید. هر کدام از تیم ها که مد نظرتان بود دانلود و از حالت فشرده خارج کنید.
 
 * فایل های `start_left` و `start_right` را باز کنید و ادرس تیم ها , نام آن ها و نحوه اجرای انها را مشخص کنید.
-  ![start_right_exmaple](../img/doc/tools/start_right_exmaple.png)
+  ![start_right_exmaple](/docs/2D/FA/img/doc/tools/start_right_exmaple.png)
 
-  ![start_left_exmaple](../img/doc/tools/start_left_exmaple.png)
+  ![start_left_exmaple](/docs/2D/FA/img/doc/tools/start_left_exmaple.png)
 
 * برای مثال های بیشتر می توانید به فولدر start.tmpl مراجعه کنید.
 
@@ -88,7 +87,7 @@ FULLSTATE_R="0"        #full state mode for right
   ./result.sh
   ```
 
-![autoTest_output](../img/doc/tools/autoTest_output.png)
+![autoTest_output](/docs/2D/FA/img/doc/tools/autoTest_output.png)
 
 - برای کیل کردن و متوقف کردن بازی ها در هر لحظه می توانید از دستور زیر استفاده کنید.
 
@@ -102,8 +101,8 @@ FULLSTATE_R="0"        #full state mode for right
 
 - Game Curve:
 
-  ![autoTest_curve](..//img/doc/tools/autoTest_curve.png)
+  ![autoTest_curve](/docs/2D/FA/img/doc/tools/autoTest_curve.png)
 
 - Score Map:
 
-  ![autoTest_score](../img/doc/tools/autoTest_score.png)
+  ![autoTest_score](/docs/2D/FA/img/doc/tools/autoTest_score.png)
