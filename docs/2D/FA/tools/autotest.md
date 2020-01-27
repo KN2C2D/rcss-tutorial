@@ -48,7 +48,7 @@ unzip autotest2d-master.zip
   * FULLSTATE_R : تیم راست
   * FULLSTATE_L : تیم چپ
 
- ``` bash
+``` bash
 PROCES=5              #number of simultaneously running servers
 ROUNDS=100             #number of games for each server
 DEFAULT_PORT=6000      #default port connecting to server
@@ -60,7 +60,7 @@ TRAINING="false"       #training mode
 SYNCH_MODE="1"         #synch mode
 FULLSTATE_L="0"        #full state mode for left
 FULLSTATE_R="0"        #full state mode for right
- ```
+```
 
 
 
@@ -75,25 +75,25 @@ FULLSTATE_R="0"        #full state mode for right
 
 * با استفاده از کد زیر در ترمینال بازی ها و تست را اجرا کنید.
 
-  ```bash
-  ./test.sh left_team right_team
-  ```
+```bash
+./test.sh left_team right_team
+```
 
   توجه کنید که `left_team` و `right_team` اسم تیم های است که در`start_left` و `start_right` مشخص کردید.
 
 * برای دیدن نتایج در هر لحظه می توانید از دستور زیر استفاده کنید.
 
-  ```bash
+```bash
   ./result.sh
-  ```
+```
 
 ![autoTest_output](/docs/2D/FA/img/doc/tools/autoTest_output.png)
 
 - برای کیل کردن و متوقف کردن بازی ها در هر لحظه می توانید از دستور زیر استفاده کنید.
 
-  ``` b
+``` bash
   ./kill.sh
-  ```
+```
 
 
 
