@@ -34,7 +34,7 @@
   
 - ابزار‌ها
   
-  ⬜️ Soccerwindow2
+  ✅ Soccerwindow2
   
   ⬜️ Fedit2
   
