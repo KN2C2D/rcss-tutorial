@@ -1,12 +1,14 @@
 # ابزار نمایش و خطایابی SoccerWindow2
 
+<ImageZoom 
+  src="/docs/2D/FA/img/doc/tools/soccerwindow2.jpg" 
+  :border="true" 
+  width="auto"
+/>
+
 ##   دانلود و نصب
 
-برای دانلود اخرین رسمی مسابقات به
-
-[SoccerWindow2]: https://osdn.net/projects/rctools/releases/p4886	"این ادرس"
-
- مراجعه کنید و آخرین نسخه سرور را دانلود کنید. 
+برای دانلود اخرین رسمی مسابقات به [این آدرس](https://osdn.net/projects/rctools/releases/p4886) مراجعه کنید و آخرین نسخه سرور را دانلود کنید. 
 
 پس از دانلود شدن آن با استفاده از دستور زیر در ترمینال فایل‌ها را از حالت فشرده خارج کنید:‌
 
