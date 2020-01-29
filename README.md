@@ -38,7 +38,7 @@
   
   ⬜️ Fedit2
   
-  ⬜️ AutoTest
+  ✅ AutoTest
 
 ## مشکلات
 
