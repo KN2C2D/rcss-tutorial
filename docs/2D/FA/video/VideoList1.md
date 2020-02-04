@@ -140,7 +140,7 @@
       1. Trainer
       2. HFO
       3. CPPDNN
-      4. LogExtractor
+      4. NamiraLogAnalyzer {احسان عسلی: [آپارات](https://www.aparat.com/v/yVOkK) [یوتیوب](https://youtu.be/mRuxg-xy7pY)}
 
 5. ### هوش مصنوعی
 
