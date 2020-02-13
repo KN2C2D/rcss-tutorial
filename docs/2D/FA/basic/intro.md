@@ -1,8 +1,8 @@
 # مقدمه‌ای بر شبیه‌سازی دوبعدی فوتبال
 
-<div id="71789765072"><script type="text/JavaScript" src="https://www.aparat.com/embed/RwxX5?data[rnddiv]=19343730715&data[responsive]=yes"></script></div>
-> نادر زارع - مقدمه‌ای بر شبیه‌ساز دوبعدی
+<div id="61821137282"><script type="text/JavaScript" src="https://www.aparat.com/embed/RwxX5?data[rnddiv]=61821137282&data[responsive]=yes"></script></div>
 
+> نادر زارع - مقدمه‌ای بر شبیه‌ساز دوبعدی
 
 ## مقدمه‌
 
