@@ -1,7 +1,6 @@
 # نصب و راه اندازی محیط شبیه‌سازی و تیم پایه
 
 <div id="71789765072"><script type="text/JavaScript" src="https://www.aparat.com/embed/7Z0ha?data[rnddiv]=71789765072&data[responsive]=yes"></script></div>
-
 > تیم رباتیک خواجه نصیر - آموزش نصب ابزارهای پلتفرم دوبعدی فوتبال
 
 این صفحه شامل اطلاعات نصب محیط شبیه‌سازی (سرور و مانیتور) و تیم پایه است که برای اجرای یک مسابقه در این پلتفورم ضروریست.
@@ -27,6 +26,8 @@
 
 در این قسمت و یا قسمت‌های دیگر اصطلاح **Build** به فرایند ساخت فایل اجرایی از کد گفته می‌شود این فرایند ممکن است شامل مراحل زیادی باشد. در شبیه‌سازی دوبعدی اکثرا از ابزار [GNU Make](https://www.gnu.org/software/make/) اسفتاده میشود که با دستور **make** خود مراحل لازم برای این فرایند را خودکار اجرا میکند.
 
+
+
 ## نصب وابستگی‌ها 
 
 پیش از نصب وابستگی‌ها **بهتر** است که مخازن سیستم‌عامل خود را به روز رسانی کنید:‌
@@ -40,6 +41,8 @@ sudo apt-get update
 ```bash
 sudo apt-get install g++ build-essential libboost-all-dev qt4-dev-tools libaudio-dev libgtk-3-dev libxt-dev bison flex
 ```
+
+
 
 ##   دانلود و نصب rcssserver
 
@@ -66,6 +69,55 @@ sudo make install
 ```bash
 rcssserver
 ```
+
+در صورت برخورد با ارور زیر
+
+```bash
+rcssserver:error while loading shared libraries: librcssclangparser.so.2: cannot open shared object file: No such file or directory
+```
+
+به فولدر `/src/.libs/` مراجعه کنید و در صورتی که فایل `librcssclangparser.so.2` موجود نبود.
+
+دستور زیر را اجرا کرده و  فایل  `librcssclangparser.so.2`  پیدا کنید.
+
+در صورت پیدا نشدن این فایل باید دوباره rcssserver را نصب کنید.
+
+```bash
+sudo find / -name librcssclangparser.so.2
+```
+
+سپس فایل `ld.so.conf` در حالت سوپر یوزر باز کنید.
+
+```bash
+sudo gedit /etc/ld.so.conf
+```
+
+و سه ادرس زیر را به include اضافه کنید.
+
+1.  "/usr/local/share"       
+2.  “/src/.libs/ “      
+3.  “/usr/local/lib”     
+
+```conf
+include /etc/ld.so.conf.d/*.conf 
+include /usr/local/lib 
+include /stc/.libs/ 
+include /ust/local/share
+```
+
+و دستور زیر را در ترمینال اجرا کنید:
+
+```bash
+sudo ldconfig
+```
+
+حال شما میتوانید با زدن دستور زیر سرور را اجرا کنید:
+
+```bash
+rcssserver
+```
+
+
 
 ## نصب مانیتور رسمی مسابقات
 
@@ -94,6 +146,8 @@ rcssmonitor
 
 توجه کنید برای مشاهده بازی‌ها و همینطور استفاده از ابزار‌های دیباگ شما میتوانید از ابزار [soccerwindow2](https://rcss.ir/2D/FA/tools/soccerwindow2) نیز استفاده کنید.
 
+
+
 ## نصب کتابخانه‌ی Librcsc
 
 کتابخانه تیم پایه‌ی Agent2D موسوم به Librcsc را میتوانید از [اینجا](https://osdn.net/projects/rctools/releases/p3777) دانلود کنید. نصب این کتابخانه برای Build کردن کد Agent ضروری است. 
@@ -118,6 +172,8 @@ make
 sudo make install
 ```
 
+
+
 ## نصب تیم پایه‌ی Agent2D
 
 برای دانلود تیم پایه‌ی Agent2D یا همان Helios Base به [این](https://osdn.net/projects/rctools/releases/55186) لینک مراجعه کنید. 
@@ -140,6 +196,8 @@ cd agent2d-x.x.x/
 ./configure CXXFLAGS='-std=c++05'
 make
 ```
+
+
 
 ## اجرای یک بازی
 
@@ -191,4 +249,4 @@ rcssmonitor
 
 
 
-تبریک، حالا شما توانستین اولین بازی خود را در این پلتفورم اجرا کنید.
+تبریک، حالا شما توانستید اولین بازی خود را در این پلتفورم اجرا کنید.
