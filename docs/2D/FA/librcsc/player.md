@@ -1,4 +1,4 @@
-## Player
+# کلاس Player
 
 ## PlayerType
 
