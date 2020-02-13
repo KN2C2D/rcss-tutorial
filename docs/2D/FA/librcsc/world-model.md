@@ -9,7 +9,7 @@
 ## Layers and Ball
 در world model میتونیم به مکان ها و سرعت های هر بازیکن و حتی توپ هم دسترسی پیدا کنیم. در قطعه کد زیر مثالی برای دسترسی به اطلاعات بازیکن‌ها را میبینید.
 
-```c++
+```c
 const WorldModel &wm = agent->world(); // define a variable as refrence for shortcut
 
 // teammates
@@ -28,7 +28,7 @@ Vector2D ball_vel = wm.ball().vel();
 
 باید توجه داشت که اگه بازی full state نباشید ممکن هست بازیکنان NULL باشند و این  باگ دادن و KILL شدن بازیکن میشود.
 برای جلوگیری از این قضیه به کد زیر توجه کنید.
-```cpp
+```c
 const WorldModel &wm = agent->world();
 
 for(int i = 1; i <= 11; i++){
@@ -44,7 +44,7 @@ for(int i = 1; i <= 11; i++){
 در این کلاس یکی از مهم‌ترین اعضای آن InterceptTable هست که داخل آن محاسباتی در اول هر سایکل انجام میگیرد برای پیدا کردن نزدیک‌ترین بازیکنان به توپ. منظور از نزدیک‌ترین بازیکنان فاصله مکانی نیست بلکه زمانی است. که برای نوشتن الگوریتم‌های دفاعی بسیار کمک کننده هستند.
 در زیر مثالی از کاربرد آن نوشته شده است.
 
-```c++
+```c
 const WorldModel &wm = agent->world();
 
 // find minimum cycles for self to reach the ball
@@ -57,6 +57,6 @@ const int opp_min = wm.interceptTable()->opponentReachCycle();
 
 ## GameTime
 در این کلاس می‌توانیم زمان بازی را نیز بدست بیاوریم. به مثال زیر دقت کنید.
-```c++
+```c
 int cycle = wm.time().cycle();
 ```

@@ -10,7 +10,7 @@
 
 نحوه دسترسی:
 
-```c++
+```c
 const WorldModel &wm = agent->world();
 
 const AbstractPlayerObject *tm = wm.ourPlayer(2);
@@ -24,7 +24,7 @@ if(tm->pos().dist(wm.ball().pos()) < tm->playerTypePtr()->kickable_area)
 
 یکی از توابع مهم playerTypePtr تابع cycleToReachDistance هست که با مشخصات آن بازیکن حساب میکند چقدر طول میکشد تا یک فاصله را طی کند. مثال:
 
-```c++
+```c
 const WorldModel &wm = agent->world();
 
 const AbstractPlayerObject *tm = wm.ourPlayer(2);

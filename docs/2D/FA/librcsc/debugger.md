@@ -8,7 +8,7 @@ dlog یک متغیر global هست که برای دیباگ کردن خیلی ب
 
 یکی از ویژگی‌های دیگر dlog این هست که با بخش بندی دیباگ‌ها مرتب سازی آن‌ها بر اساس رفتار انجام شده کار را برای ما راحت کرده است. مثلا: 
 
-```cpp
+```c
 dlog.addText(Logger::BLOCK, "HI BLOCK");
 dlog.addText(Logger::INTERCEPT, "HI INTERCEPT");
 ```
@@ -21,7 +21,7 @@ dlog.addText(Logger::INTERCEPT, "HI INTERCEPT");
 
 این تابع ‌string ورودی میگیرد و مانند scanf متغیرهای بعدی را بر اساس فرمت ‌رشته ورودی میگیرد.
 
-```cpp
+```c
 dlog.addText(Logger::BLOCK,"int: %d, double: %f test", 10, 2.24);
 ```
 
@@ -29,7 +29,7 @@ dlog.addText(Logger::BLOCK,"int: %d, double: %f test", 10, 2.24);
 
 این تابع با ورودی گرفتن نقطه‌ی سر و ته یک خط و رنگ آن خطی در صفحه بازی میکشد. این تابع به صورت چند نوع مختلف برای ورودی گرفتن تعریف شده است که یکی از پر استفاده‌ترین انها در زیر امده است.
 
-```cpp
+```c
 Vector2D start(0,0);
 Vector2D end(10,10);
 
@@ -42,7 +42,7 @@ dlog.addLine(Logger::BLOCK, start, end, 255, 0, 0);
 
 این تابع با ورودی گرفتن مرکز دایره و شعاع و رنگ آن و بولینی که مشخص میکند از داخل پر باشد یا نه دایره ای را روی صفحه بازی میکشد.
 
-```cpp
+```c
 Vector2D center(2,2);
 double r = 4;
 dlog.addCircle(Logger::BLOCK, center, r, 255,0,0, false)
