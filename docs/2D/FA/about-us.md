@@ -78,5 +78,17 @@
             gitlab="mroa4"
             internet="http://mroa4.ir">
     </AvatarMini>
+    <AvatarMini 
+            img="/docs/2D/FA/img/people/unknown-avatar.png" 
+            firstName="عارف"
+            lastName="سیاره"
+            telegram="Aref_ars"
+            twitter=""
+            email="arefsayareh@gmail.com"
+            linkedin=""
+            github="arefsa78"
+            gitlab="arefsa"
+            internet="">
+    </AvatarMini>
 </div>
 
