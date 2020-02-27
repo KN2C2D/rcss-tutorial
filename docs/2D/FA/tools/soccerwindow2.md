@@ -42,7 +42,7 @@ sudo make install
 QT4_LDADD="$($PKG_CONFIG --static --libs-only-other $QT4_REQUIRED_MODULES)$($PKG_CONFIG --static --libs-only-l $QT4_REQUIRED_MODULES)"
 ```
 
-و بین متغیر های ‍`$PKG_CONFIG`، مانند زیر، فاصله (اسپیس) بگذارید.
+بین متغیرهای ‍`$PKG_CONFIG`، مانند زیر، فاصله (اسپیس) بگذارید.
 
 ```bash
 QT4_LDADD="$($PKG_CONFIG --static --libs-only-other $QT4_REQUIRED_MODULES) $($PKG_CONFIG --static --libs-only-l $QT4_REQUIRED_MODULES)"
