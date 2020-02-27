@@ -1,7 +1,6 @@
 # نصب و راه اندازی محیط شبیه‌سازی و تیم پایه
 
 <div id="71789765072"><script type="text/JavaScript" src="https://www.aparat.com/embed/7Z0ha?data[rnddiv]=71789765072&data[responsive]=yes"></script></div>
-
 > تیم رباتیک خواجه نصیر - آموزش نصب ابزارهای پلتفرم دوبعدی فوتبال
 
 
@@ -72,20 +71,18 @@ sudo make install
 rcssserver
 ```
 
-در صورت برخورد با ارور زیر
+در صورت برخورد با ارور زیر:
 
 ```bash
 rcssserver:error while loading shared libraries: librcssclangparser.so.2: cannot open shared object file: No such file or directory
 ```
 
-به فولدر `/src/.libs/` مراجعه کنید و در صورتی که فایل `librcssclangparser.so.2` موجود نبود.
-
-دستور زیر را اجرا کرده و  فایل  `librcssclangparser.so.2`  پیدا کنید.
+دستور زیر را اجرا کرده و  فایل  `librcssclangparser.so`  پیدا کنید.
 
 در صورت پیدا نشدن این فایل باید دوباره rcssserver را نصب کنید.
 
 ```bash
-sudo find / -name librcssclangparser.so.2
+sudo find / -name librcssclangparser.so
 ```
 
 سپس فایل `ld.so.conf` در حالت سوپر یوزر باز کنید.
@@ -94,26 +91,19 @@ sudo find / -name librcssclangparser.so.2
 sudo gedit /etc/ld.so.conf
 ```
 
-و سه ادرس زیر را به include اضافه کنید.
-
-1.  "/usr/local/share"       
-2.  “/src/.libs/ “      
-3.  “/usr/local/lib”     
+و آدرس زیر را به انتهای فایل اضافه و فایل را ذخیره کنید.
 
 ```conf
-include /etc/ld.so.conf.d/*.conf 
 include /usr/local/lib 
-include /stc/.libs/ 
-include /ust/local/share
 ```
 
-و دستور زیر را در ترمینال اجرا کنید:
+برای ذخیره شدن تغییرات دستور زیر را در ترمینال اجرا کنید.
 
 ```bash
 sudo ldconfig
 ```
 
-حال شما میتوانید با زدن دستور زیر سرور را اجرا کنید:
+حال شما میتوانید با زدن دستور زیر سرور را اجرا کنید.
 
 ```bash
 rcssserver
