@@ -1,5 +1,15 @@
-<h2 style="text-align:center">RoboCup</h2>
+# تاریخچه مسابقات روبوکاپ
 
+در این صفحه تاریخچه مسابقات روبوکاپ به تفکیک مسابقه و سال آورده شده است.
+
+لیست مسابقات :
+
+1. [RoboCup](https://www.robocup.org/)
+2. [IranOpen](http://iranopen2020.ir/)
+3. [NasirCup](http://nasircup.kn2c.ir)
+4. [SirazOpen](https://t.me/s/shirazopen)
+
+<h2 style="text-align:center">RoboCup</h2>
 
 | Year |                             Host                             | First                                                        |                            Second                            |                            Third                             |                            Fourth                            | Challenge |
 | :--: | :----------------------------------------------------------: | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-------: |
@@ -51,7 +61,9 @@
 
 <h2 style="text-align:center">NasirCup</h2>
 
+| Year | First   | Second  | Third | Fourth | Challenge   |
+| ---- | ------- | ------- | ----- | ------ | ----------- |
+| [2019](http://nasircup.kn2c.ir/2019/) | CYRUS   | KN2C    | OBG   | -      | -           |
+| [2017](http://nasircup.kn2c.ir/2017/) | Oxsy    | Fury    | AETeam1 | Nexus2D  |  -           |
 
 <h2 style="text-align:center">SirazOpen</h2>
-
-
