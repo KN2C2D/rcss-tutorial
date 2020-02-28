@@ -74,9 +74,9 @@ git clone git@github.com:KN2C2D/agent2d-stack.git && cd agent2d-stack
 
 برای اطلاعات بیشتر راجب مبحث CI/CD میتوانید به [این پست](https://sokanacademy.com/blog/10005/%D8%B3%DB%8C-%D8%A2%DB%8C-%D8%B3%DB%8C-%D8%AF%DB%8C-%DA%86%DB%8C%D8%B3%D8%AA) مراجعه کنید.
 
-------
 
-🔹 لطفا مشکلات خود را در [گیتهاب پروژه](https://github.com/KN2C2D/agent2d-stack) با ما در میان بگذارید.
-
-------
-
+<note type="tip" label="">
+🔹 لطفا مشکلات خود را در 
+<a href="https://github.com/KN2C2D/agent2d-stack">گیتهاب پروژه </a>
+با ما در میان بگذارید.
+</note>
