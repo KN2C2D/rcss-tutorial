@@ -136,8 +136,6 @@ sudo make install
 rcssmonitor
 ```
 
-توجه کنید برای مشاهده بازی‌ها و همینطور استفاده از ابزار‌های دیباگ شما میتوانید از ابزار [soccerwindow2](https://rcss.ir/2D/FA/tools/soccerwindow2) نیز استفاده کنید.
-
 </br></br></br>
 
 <Note type="tip" label=""> 
