@@ -1,7 +1,6 @@
-# خطایابی در شبیه ساز دوبعدی
+# خطایابی در شبیه‌سازی دوبعدی
 
 <div id="3075936716"><script type="text/JavaScript" src="https://www.aparat.com/embed/kVvSz?data[rnddiv]=3075936716&data[responsive]=yes"></script></div>
-
 > تیم رباتیک دانشگاه خواجه نصیر - خطایابی در شبیه‌سازی دوبعدی فوتبال
 
 dlog یک متغیر global هست که برای دیباگ کردن خیلی به دیباگ کردن کد کمک میکند.
