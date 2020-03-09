@@ -6,6 +6,18 @@
 
 <note type="tip" label="">لیست کامل ویدیو‌ها در [آپارات](https://www.aparat.com/playlist/308629) و یا [Youtube](https://www.youtube.com/playlist?list=PLFy1-QjBONFLni9AjhWzjv3DxnHJfvk2G) قابل مشاهده ‌است.</note>
 
+<div id="90783055762"><script type="text/JavaScript" src="https://www.aparat.com/embed/K4tlL?data[rnddiv]=90783055762&data[responsive]=yes"></script></div>
+
+> تیم **Cyrus2D** - تبدیل سرور دانشجویی فوتبال شبیه ساز دوبعدی به سرور دانش آموزی
+
+------
+
+<div id="64633796312"><script type="text/JavaScript" src="https://www.aparat.com/embed/Ljkoe?data[rnddiv]=64633796312&data[responsive]=yes"></script></div>
+
+> تیم **Cyrus2D** - نصب و راه اندازی سرور شبیه‌سازی دو بعدی فوتبال
+
+------
+
 <div id="52613078675"><script type="text/JavaScript" src="https://www.aparat.com/embed/kVvSz?data[rnddiv]=52613078675&data[responsive]=yes"></script></div>
 
 > تیم **KN2C** - خطایابی در شبیه‌سازی دوبعدی فوتبال 
@@ -20,7 +32,7 @@
 
 <div id="53820256183"><script type="text/JavaScript" src="https://www.aparat.com/embed/oTOZa?data[rnddiv]=53820256183&data[responsive]=yes"></script></div>
 
->تیم **Enigma** - توضیحی بر کلاس WorldModel و توابع و متغیر‌های آن  
+> تیم **Enigma** - توضیحی بر کلاس WorldModel و توابع و متغیر‌های آن  
 
 ------
 
@@ -44,7 +56,7 @@
 
 <div id="78517582587"><script type="text/JavaScript" src="https://www.aparat.com/embed/F5OWy?data[rnddiv]=78517582587&data[responsive]=yes"></script></div>
 
->  تیم **MS2D** - مروری بر مسیر شروع در شبیه‌سازی دوبعدی فوتبال دانش‌آموزی
+> تیم **MS2D** - مروری بر مسیر شروع در شبیه‌سازی دوبعدی فوتبال دانش‌آموزی
 
 ------
 
