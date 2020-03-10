@@ -54,6 +54,18 @@
 
 ------
 
+<div id="35782750687"><script type="text/JavaScript" src="https://www.aparat.com/embed/RKYLS?data[rnddiv]=35782750687&data[responsive]=yes"></script></div>
+
+> تیم **Atalanta** - آموزش نصب اوبونتو
+
+------
+
+<div id="89536854155"><script type="text/JavaScript" src="https://www.aparat.com/embed/tAKMN?data[rnddiv]=89536854155&data[responsive]=yes"></script></div>
+
+> تیم **Atalanta** - آموزش دستورهای کاربردی در ترمینال اوبونتو
+
+------
+
 <div id="78517582587"><script type="text/JavaScript" src="https://www.aparat.com/embed/F5OWy?data[rnddiv]=78517582587&data[responsive]=yes"></script></div>
 
 > تیم **MS2D** - مروری بر مسیر شروع در شبیه‌سازی دوبعدی فوتبال دانش‌آموزی
