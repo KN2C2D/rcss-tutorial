@@ -5,6 +5,7 @@
 **کاربرد**
 
 تولید اطلاعات جامع در مورد عملکرد تیم شما در مسابقات مختلف.ارزیابی قابلیت های مختلف تیم شما.استفاده از داده های استخراج شده برای آموزش الگوریتم های machine learning .
+
 **شروع به استفاده** 
 
 پیش نیاز
@@ -102,6 +103,7 @@ left_team_agent_1 = game.left_team.agents[0].data
 ```
 
 **ویدیوی آموزشی**
+
  [آپارات](https://www.aparat.com/v/fJE2C/Namira_Log_Analyzer_for_2D_soccer_Simulation_English) 
 
 [یوتیوب](https://www.youtube.com/watch?v=mRuxg-xy7pY)
