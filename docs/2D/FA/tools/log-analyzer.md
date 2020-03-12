@@ -2,7 +2,7 @@
 
 <div id="44956461736"><script type="text/JavaScript" src="https://www.aparat.com/embed/fJE2C?data[rnddiv]=44956461736&data[responsive]=yes"></script></div>
 
-> تیم نامیر - آموزش ابزار Log-Analyzer به زبان انگلیسی
+> تیم نامیرا - آموزش ابزار Log-Analyzer به زبان انگلیسی
 
 [Namira Log-Analyzer](https://github.com/Farzin-Negahbani/Namira_LogAnalyzer) ابزاری پایتونی‌ برای تجزیه و تحلیل بازی‌های شبیه‌سازی دوبعدی فوتبال است که توسط تیم نامیرا ساخته شده است.
 
