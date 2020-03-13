@@ -19,9 +19,47 @@
 rcssserver server::keepaway=true server::foul_detect_probability=0.0 server::use_offside=false
 ```
 
-برای اجرای کلاینت نیز شما میتوانید از تیم پایه [Agent2D](/2D/FA/basic/install) استفاده کنید. با این تفاوت که برای اجرای بازی در این حالت به جای اسکریپت `start.sh`  باید از اسکریپت `keepaway.sh` استفاده کنید.
+یا میتوانید مقادیر متغیرهای بالا را در server.conf عوض کنید تا مقادیر ذخیره شوند.
 
-برای تغییر در الگوریتم پیشفرض تیم پایه Agent2D، برای مدافع فایل `role_keepaway_keeper.cpp` و برای مهاجم فایل `role_keepaway_taker.cpp` را باید تغییر دهید.
+```bash
+cd ~/.rcssserver
+gedit server.conf
+```
+
+برای اجرای کلاینت نیز شما میتوانید از تیم پایه [Agent2D-KeepAway](https://github.com/Cyrus2D/agent2d-keepaway) استفاده کنید.
+
+
+
+## نحوه‌ی اجرای تیم
+
+برای اجرای تیم بعد از make کردن تیم دو اسکریپت وجود دارد. یکی برای تیم مهاجم  یکی دیگر برای تیم مدافع.
+
+اجرا کردن هر کدام از این اسکریپت‌ها به شکل زیر است.
+
+```bash
+./keepaway-keeper.sh
+./keepaway-taker.sh
+```
+
+برای اجرای تیم به صورت دیباگ مود و اجرا شدن dlog ها میتوانید اسکریپت‌های زیر را ران کنید.
+
+```bash
+./keepaway-keeper-debug.sh
+./keepaway-taker-debug.sh
+```
+
+## تغییر کد
+
+برای تغییر بازی تیم‌پایه در موقعیت دفاعی و تهاجمی میتوانید فایل‌های زیر را تغییر دهید
+
+```c++
+class RoleKeepawayKeeper; // file role_keepaway_keeper.cpp or .h
+class RoleKeepawayTaker; // file role_keepaway_taker.cpp or .h
+```
+
+هر کدام از این کلاس‌ها دارای تابعی به اسم execute هستند که دو تابع do_kick, do_move را با توجه به صاحب‌توپ بودن یا نبودن صدا میکنند.
+
+شما با تغییر این توابع می‌توانید تیم خود را بسازید.
 
 
 
