@@ -97,7 +97,7 @@ FULLSTATE_R="0"        #full state mode for right
 
 
 
-## نمونه انلایز هایی که می توانید با اتو تست انجام دهید.
+## نمونه‌ی انلایزها
 
 - Game Curve:
 
