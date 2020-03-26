@@ -16,33 +16,33 @@
 
 - بخش مقدماتی
   
-   ✅ معرفی و تاریخچه
+   :white_check_mark: معرفی و تاریخچه
   
-  ⬜️ مقدمه
+   :black_square_button: مقدمه
   
-   ✅ نصب
+   :white_check_mark: نصب
   
-   ✅ تیم پایه
+   :white_check_mark: تیم پایه
   
 - Agent2D
   
-  ⬜️ آشنایی کلی
+  :black_square_button: آشنایی کلی
   
 - Librcsc
   
-  ⬜️ آشنایی کلی
+  :black_square_button: آشنایی کلی
   
 - ابزار‌ها
   
-  ✅ Soccerwindow2
+  :white_check_mark: Soccerwindow2
   
-  ✅ Fedit2
+  :white_check_mark: Fedit2
   
-  ✅ AutoTest
+  :white_check_mark: AutoTest
   
-  ✅ Agent2DStack
+  :white_check_mark: Agent2DStack
   
-  ✅ NamiraLogAnalyzer
+  :white_check_mark: NamiraLogAnalyzer
   
 
 ## مشکلات
