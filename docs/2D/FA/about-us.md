@@ -68,7 +68,8 @@
          >
       </AvatarMini>
     <AvatarMini 
-            img="https://avatars2.githubusercontent.com/u/43232848?s=400&u=dd8c7847b4cf89a323a0cb164448e0663c782967&v=4" 
+            img="/docs/2D/FA/img/people/unknown-avatar.png" 
+            firstName="عارف"
             firstName="امید"
             lastName="امینی"
             telegram="mroa4"
