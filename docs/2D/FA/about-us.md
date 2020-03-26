@@ -16,7 +16,7 @@
 
 <div style="display: flex;flex-direction: row;justify-content: center;flex-wrap: wrap">  
    <AvatarMini 
-        img="https://media.licdn.com/dms/image/C5603AQE5tnXWchI7lg/profile-displayphoto-shrink_200_200/0?e=1579737600&v=beta&t=O6PfPUD04DsEXr--lHQIm4JE0q1FXk559Os0bs9LzPE" 
+        img="/docs/2D/FA/img/people/armin-sadreddin.jpg" 
         firstName="آرمین"
         lastName="صدرالدین"
         telegram="arminsadreddin"
