@@ -8,6 +8,7 @@
 2. [IranOpen](http://iranopen2020.ir/)
 3. [NasirCup](http://nasircup.kn2c.ir)
 4. [SirazOpen](https://t.me/s/shirazopen)
+5. OnlineCompetition
 
 <h2 style="text-align:center">RoboCup</h2>
 
@@ -67,3 +68,17 @@
 | [2017](http://nasircup.kn2c.ir/2017/) | Oxsy    | Fury    | AETeam1 | Nexus2D  |  -           |
 
 <h2 style="text-align:center">SirazOpen</h2>
+
+
+
+<h2 style="text-align:center">OnlineCompetition-MajorCup</h2>
+
+| Year | First | Second | Third | Fourth | Challenge |                             Logs                             |                           Document                           |
+| ---- | ----- | ------ | :---: | :----: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2020 | Cyrus | Namira |   -   |   -    |     -     | [Click](https://drive.google.com/drive/folders/1ZNw3prJlu0C_qYtJ6_e5mNZ9CJJY9Sxh?usp=sharing) | [Click](https://docs.google.com/document/d/11f_hIdVH9MmsixM-4S1NVTYMuzJ03SNo96ohSL2nEL0/edit) |
+
+<h2 style="text-align:center">OnlineCompetition-StarterCup</h2>
+
+| Year | First |    Second    | Third | Fourth | Challenge |                             Logs                             |                           Document                           |
+| :--: | :---: | :----------: | :---: | :----: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2020 | Cyrus | AtomicEnergy |   -   |   -    |     -     | [Click](https://drive.google.com/drive/folders/1ZNw3prJlu0C_qYtJ6_e5mNZ9CJJY9Sxh?usp=sharing) | [Click](https://docs.google.com/document/d/11f_hIdVH9MmsixM-4S1NVTYMuzJ03SNo96ohSL2nEL0/edit) |
