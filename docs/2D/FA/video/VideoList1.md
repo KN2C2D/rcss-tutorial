@@ -65,23 +65,23 @@
       2. پیاده سازی رفتارهای سطح صفر
       3. پیاده سازی رفتارهای سطح یک
 
-   5. ##### بیس Agent2DStarter <Badge type="warning">در دست ساخت</Badge>
+   5. ##### بیس Agent2DStarter 
 
       1. ساختار تصمیم گیری <Badge type="warning">در دست ساخت</Badge>
       2. پیاده سازی تعدادی تمرین <Badge type="warning">در دست ساخت</Badge>
-      3. آشنایی با اشیا <Badge type="warning">در دست ساخت</Badge>
-         1. Agent <Badge type="warning">در دست ساخت</Badge>
-         2. WorldModel <Badge type="warning">در دست ساخت</Badge>
+      3. آشنایی با اشیا 
+         1. Agent 
+         2. WorldModel 
          3. Ball <Badge type="warning">در دست ساخت</Badge>
-         4. Self <Badge type="warning">در دست ساخت</Badge>
+         4. Self 
          5. Player <Badge type="warning">در دست ساخت</Badge>
-         6. ServerParam <Badge type="warning">در دست ساخت</Badge>
-         7. PlayerParam <Badge type="warning">در دست ساخت</Badge>
-         8. Intercept_Table <Badge type="warning">در دست ساخت</Badge>
+         6. ServerParam 
+         7. PlayerParam
+         8. Intercept_Table
       4. بررسی Strategy <Badge type="warning">در دست ساخت</Badge>
       5. بررسی BasicMove <Badge type="warning">در دست ساخت</Badge>
-      6. بررسی BasicOffensive <Badge type="warning">در دست ساخت</Badge>
-      7. بررسی دروازه بان <Badge type="warning">در دست ساخت</Badge>
+      6. بررسی BasicOffensive 
+      7. بررسی دروازه بان
       8. حالات مختلف بازی <Badge type="warning">در دست ساخت</Badge>
       9. بررسی SetPlay <Badge type="warning">در دست ساخت</Badge>
       10. استفاده از دیباگر و لاگر { تیم رباتیک خواجه‌نصیر: [یوتیوب](https://www.youtube.com/watch?v=A34C0YdV2UM) [آپارات](https://www.aparat.com/v/kVvSz)}
