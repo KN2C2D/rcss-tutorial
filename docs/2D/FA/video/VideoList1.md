@@ -84,7 +84,7 @@
       7. بررسی دروازه بان
       8. حالات مختلف بازی <Badge type="warning">در دست ساخت</Badge>
       9. بررسی SetPlay <Badge type="warning">در دست ساخت</Badge>
-      10. استفاده از دیباگر و لاگر {تیم رباتیک خواجه‌نصیر: [یوتیوب](https://www.youtube.com/watch?v=A34C0YdV2UM) [آپارات](https://www.aparat.com/v/3aNor)}
+      10. استفاده از دیباگر و لاگر {تیم KN2C: [یوتیوب](https://www.youtube.com/watch?v=A34C0YdV2UM) [آپارات](https://www.aparat.com/v/3aNor)}
 
    6. ##### بیس Agent2D پیشرفته
 
@@ -151,4 +151,4 @@
    
 6. ### سمینارها
 
-   1. معرفی شبیه‌سازی دوبعدی فوتبال - اردیبهشت ۹۸ - مشهدلاگ {تیم رباتیک خواجه‌نصیر: [آپارات](https://www.aparat.com/v/y0Sa7) [یوتیوب](https://youtu.be/RvktEzH4glA) }
+   1. معرفی شبیه‌سازی دوبعدی فوتبال - اردیبهشت ۹۸ - مشهدلاگ {تیم KN2C: [آپارات](https://www.aparat.com/v/y0Sa7) [یوتیوب](https://youtu.be/RvktEzH4glA) }
