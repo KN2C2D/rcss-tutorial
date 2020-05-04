@@ -84,7 +84,7 @@
       7. بررسی دروازه بان
       8. حالات مختلف بازی <Badge type="warning">در دست ساخت</Badge>
       9. بررسی SetPlay <Badge type="warning">در دست ساخت</Badge>
-      10. استفاده از دیباگر و لاگر { تیم رباتیک خواجه‌نصیر: [یوتیوب](https://www.youtube.com/watch?v=A34C0YdV2UM) [آپارات](https://www.aparat.com/v/kVvSz)}
+      10. استفاده از دیباگر و لاگر { تیم رباتیک خواجه‌نصیر: [یوتیوب](https://www.youtube.com/watch?v=A34C0YdV2UM) [آپارات](https://www.aparat.com/v/3aNor)}
 
    6. ##### بیس Agent2D پیشرفته
 
