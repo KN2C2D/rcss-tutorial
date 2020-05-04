@@ -2,7 +2,7 @@
 
 <div id="46640161910"><script type="text/JavaScript" src="https://www.aparat.com/embed/3aNor?data[rnddiv]=46640161910&data[responsive]=yes"></script></div>
 
-> تیم رباتیک دانشگاه خواجه نصیر - خطایابی در شبیه‌سازی دوبعدی فوتبال
+> تیم رباتیک دانشگاه خواجه نصیر(KN2C) - خطایابی در شبیه‌سازی دوبعدی فوتبال
 
 dlog یک متغیر global هست که برای دیباگ کردن خیلی به دیباگ کردن کد کمک میکند.
 
