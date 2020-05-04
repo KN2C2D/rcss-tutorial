@@ -5,46 +5,40 @@
     <title>RoboCup Soccer Simulation</title>
     <link href="Front/style/main.css" rel="stylesheet">
     <style>
-        body{
+        body {
             color: #267810;
         }
-        body a{
-            color: #267810!important;
+
+        body a {
+            color: #267810 !important;
             font-weight: bold;
         }
-        @media only screen and (max-width: 1000px) {
-            body{
-                overflow: hidden;
-            }
-            .background {
-                position: fixed;
-                height: 100%;
-                top: 0;
-                transform: scale(1.1);
-            }
 
-        }
-        @media only screen and (min-width: 1000px) {
-            .background {
-                position: fixed;
-                height: 100%;
-                width: 100%;
-                padding-bottom: 150px;
-            }
-            #myVideo {
-                width: 100%;
-                filter: blur(3px);
-            }
 
-        }
+
         #myVideo {
+            position: absolute;
+            filter: blur(3px);
+            -webkit-filter: blur(3px);
+            top: 50%;
+            left: 50%;
             min-width: 100%;
             min-height: 100%;
-            filter: blur(3px);
+            width: auto;
+            height: auto;
+            z-index: -2;
+            transform: translateX(-50%) translateY(-50%);
         }
 
         .background {
-            position: fixed;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            position: absolute;
+            top: 0px;
+            width: 100% !important;
+            height: 100% !important;
+            z-index: -2;
+            background-size: 22px 22px;
         }
 
         .overlay {
@@ -55,7 +49,8 @@
             top: 0;
 
         }
-        .split{
+
+        .split {
             background-color: #267810;
         }
     </style>
