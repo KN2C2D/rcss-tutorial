@@ -7,6 +7,7 @@
     <style>
         body {
             color: #267810;
+            overflow: hidden;
         }
 
         body a {
@@ -18,8 +19,7 @@
 
         #myVideo {
             position: absolute;
-            filter: blur(3px);
-            -webkit-filter: blur(3px);
+            filter: blur(4px);
             top: 50%;
             left: 50%;
             min-width: 100%;
@@ -35,6 +35,7 @@
             overflow-y: hidden;
             position: absolute;
             top: 0px;
+            overflow: hidden;
             width: 100% !important;
             height: 100% !important;
             z-index: -2;
@@ -42,7 +43,7 @@
         }
 
         .overlay {
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.3);
             position: absolute;
             height: 100%;
             width: 100%;
@@ -52,6 +53,26 @@
 
         .split {
             background-color: #267810;
+        }
+        @media only screen and (max-width: 1000px) {
+            .title-lg {
+                display: none!important;
+            }
+            .title-md {
+                display: flex!important;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 0!important;
+            }
+            .documentation a{
+                display: block;
+                width: 100%;
+                margin-left: 0;
+                margin-right: 0;
+                padding-left: 0;
+                padding-right: 0;
+            }
         }
     </style>
 </head>
@@ -63,6 +84,7 @@
     </video>
     <div class="overlay"></div>
 </div>
+<div>
 <div class="title-lg">
     <div class="bg"></div>
     <h1>Robocup Soccer Simulation</h1>
@@ -71,7 +93,7 @@
 </div>
 <div class="title-md" style="z-index: 3;">
     <h1>Robocup Soccer Simulation</h1>
-    <hr>
+    <hr style="background-color: #267810">
     <h1 style="direction: rtl">شبیه‌سازی فوتبال روبوکاپ</h1>
 </div>
 <div class="documentation" style="text-align: center; z-index: 3">
@@ -79,6 +101,7 @@
     <a href="http://aparat.com/RCSS.IR">آپارات</a>
     <a href="https://www.youtube.com/channel/UCTBjTpbgmLBFAj672tVeLyQ">یوتیوب</a>
     <a href="https://t.me/SoccerSim2D">کانال و گروه تلگرام</a>
+</div>
 </div>
 
 
