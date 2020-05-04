@@ -4,21 +4,72 @@
     <meta charset="UTF-8">
     <title>RoboCup Soccer Simulation</title>
     <link href="Front/style/main.css" rel="stylesheet">
+    <style>
+        @media only screen and (max-width: 1000px) {
+            body{
+                overflow: hidden;
+            }
+            .background {
+                position: fixed;
+                height: 100%;
+                top: 0;
+                transform: scale(1.1);
+            }
+
+        }
+        @media only screen and (min-width: 1000px) {
+            .background {
+                position: fixed;
+                height: 100%;
+                width: 100%;
+                padding-bottom: 150px;
+            }
+            #myVideo {
+                width: 100%;
+                filter: blur(3px);
+            }
+
+        }
+        #myVideo {
+            min-width: 100%;
+            min-height: 100%;
+            filter: blur(3px);
+        }
+
+        .background {
+            position: fixed;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+
+        }
+    </style>
 </head>
 <body>
-
+<div class="background">
+    <video autoplay muted loop id="myVideo">
+        <source src="background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="overlay"></div>
+</div>
 <div class="title-lg">
     <div class="bg"></div>
     <h1>Robocup Soccer Simulation</h1>
     <div class="split"></div>
     <h1 style="direction: rtl">شبیه‌سازی فوتبال روبوکاپ</h1>
 </div>
-<div class="title-md">
+<div class="title-md" style="z-index: 3;">
     <h1>Robocup Soccer Simulation</h1>
     <hr>
     <h1 style="direction: rtl">شبیه‌سازی فوتبال روبوکاپ</h1>
 </div>
-<div class="documentation" style="text-align: center;">
+<div class="documentation" style="text-align: center; z-index: 3">
     <a href="2D/FA">مستندات شبیه‌سازی دوبعدی فوتبال</a>
     <a href="http://aparat.com/RCSS.IR">آپارات</a>
     <a href="https://www.youtube.com/channel/UCTBjTpbgmLBFAj672tVeLyQ">یوتیوب</a>
