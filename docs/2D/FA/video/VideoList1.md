@@ -45,9 +45,9 @@
    2. ##### ابزار
 
       1. سرور
-         1. نصب سرور
+         1. نصب سرور {تیم سایرس:‌ [یوتیوب](https://youtu.be/I65F7lo9QvU)}
          2. تنظیمات سرور
-         3. بررسی لاگ بازی
+         3. بررسی لاگ بازی {عارف سیاره: یوتیب [آپارات](https://www.aparat.com/v/XZB2e?playlist=398223)}
       2. نصب کتابخانه بیس ایجنت
       3. مانیتورها
          1. نصب
@@ -71,13 +71,13 @@
       2. پیاده سازی تعدادی تمرین <Badge type="warning">در دست ساخت</Badge>
       3. آشنایی با اشیا 
          1. Agent 
-         2. WorldModel 
-         3. Ball <Badge type="warning">در دست ساخت</Badge>
-         4. Self 
-         5. Player <Badge type="warning">در دست ساخت</Badge>
-         6. ServerParam 
+         2. WorldModel {عارف سیاره: یوتیب [آپارات](https://www.aparat.com/v/plI1k?playlist=398223)}
+         3. Ball {مریم تیموری: [یوتیوب](https://youtu.be/X558hSXa74k) [آپارات](https://www.aparat.com/v/ibwcl?playlist=398223)}
+         4. Self {نادر زارع:‌ [یوتیوب](https://youtu.be/y7ya90mKy0g) [آپارات](https://www.aparat.com/v/KOQhf?playlist=398223)}
+         5. Player  {مریم تیموری: [یوتیوب](https://youtu.be/ISZXi8PaxVU) [آپارات](https://www.aparat.com/v/DzdPC?playlist=398223)}
+         6. ServerParam {مریم تیموری: [یوتیوب](https://youtu.be/cPToqeVC7Do) [آپارات](https://www.aparat.com/v/bR7SW)}
          7. PlayerParam
-         8. Intercept_Table
+         8. Intercept_Table {عارف سیاره:‌ یوتیب [آپارات](https://www.aparat.com/v/W0wEJ?playlist=398223)}
       4. بررسی Strategy <Badge type="warning">در دست ساخت</Badge>
       5. بررسی BasicMove <Badge type="warning">در دست ساخت</Badge>
       6. بررسی BasicOffensive 
